@@ -48,11 +48,11 @@ socialImage: "/img/favicons/favicon-196x196.png"
 navigationLinks:
  - {link: "https://makerspace.robotix.in/", text: "Makerspace"}
  - {permalink: "/FAQs/", text: "FAQs"}
- - {permalink: "/workshops/", text: "Workshops"}
- - {permalink: "/event/", text: "Events"}
+ #- {permalink: "/workshops/", text: "Workshops"}
+ #- {permalink: "/event/", text: "Events"}
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/tutorial", text: "Tutorials"}
- - {permalink: "/team/", text: "Team"}
+ #- {permalink: "/team/", text: "Team"}
  - {permalink: "/about-us/", text: "About Us"}
 bottomNavigationLinks:
  - {link: "https://robotix.typeform.com/to/USirXsoq", text: "Contact Us"}
@@ -81,10 +81,10 @@ aboutBlock:
     text: "To bring together people, to discuss and exchange ideas related to more mature and nuanced areas of robotics."
     link: "/kriss/"
   -
-    title: "Winter Workshop"
+    title: "Winter School"
     image: "winter-workshop.png"
     text: "See the complete documentation of the winter workshop we conduct anually for first and second year undergraduates of IIT Kharagpur."
-    link: "/winter-workshop/"
+    link: "http://winterschool.robotix.in/"
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
@@ -105,10 +105,10 @@ FbFeedTitle: "Are You Geared Up?"
 FbHashTag: "robotixiitkgp"
 
 # Subscribe Block
-subscribeImage: "subscribe.jpg"
-subscribeTitle: "Subscribe for updates"
-subscribeAction: "https://robotix.us8.list-manage.com/subscribe/post?u=175d25a13bb44ffe7478a4ccf&amp;id=8de4186fe7"
-subscribeInfo: "Subscribe with us to stay tuned!"
+# subscribeImage: "subscribe.jpg"
+# subscribeTitle: "Subscribe for updates"
+# subscribeAction: "https://robotix.us8.list-manage.com/subscribe/post?u=175d25a13bb44ffe7478a4ccf&amp;id=8de4186fe7"
+# subscribeInfo: "Subscribe with us to stay tuned!"
 
 # Footer
 socialLinks:
