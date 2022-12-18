@@ -2,9 +2,14 @@
 <section id="team" class="team">
   <div class="content-wrapper">
       <!-- <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Alumni</h4> -->
+      <ul class="collapsible expandable">
       {% for hierarchy in site.data.alumni %}
-      <div class="col-lg-10 col-lg-offset-1 text-center">
-          <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Batch of {{ hierarchy.title }}</h4>
+      <li>
+        <div class="collapsible-header"><h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Batch of {{ hierarchy.title }}</h4></div>
+        <div class="collapsible-body">
+            <span>
+      <div class="text-center">
+          <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"></h4>
           {% for teamMember in hierarchy.team %}
           <div class="effect-wrapper col-md-3 col-sm-4 col-xs-12 cols-centered appear-animation">
               <div class="zoe-effect" data-toggle="modal" data-target="#speakerDetail-{{ teamMember.id }}">
@@ -28,7 +33,21 @@
           </div>
           {% endfor %}
       </div>
+    </span>
+    </div>
+    </li>
       {% endfor %}
+    </ul>
   </div>
 </section>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.collapsible.expandable');
+        var instances = M.Collapsible.init(elems, {
+            accordian: false,
+            inDuration:500,
+            outDuration:300,
+        });
+    });
+</script>
 <!-- End Team List -->
