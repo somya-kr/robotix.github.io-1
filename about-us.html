@@ -7,8 +7,27 @@ image: img/sections-background/schedule.jpg
 
 {% include top-section.html %}
 
+<div class="container">
 {% include about-us.html %}
 
-{% include team.html %}
+    {% include team.html %}
+    <ul class="collapsible expandable">
+        <li>
+            <div class="collapsible-header"><h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Alumni</h4></div>
+            <div class="collapsible-body">
+                {% include alumni.html %}
+            </div>
+        </li>
+    </ul>
+</div>
 
- {% include alumni.html %}
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.collapsible.expandable');
+        var instances = M.Collapsible.init(elems, {
+            accordian: false,
+            inDuration:500,
+            outDuration:300,
+        });
+    });
+</script>
