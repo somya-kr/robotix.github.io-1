@@ -1,17 +1,17 @@
 <header id="top-header" class="top-header">
-    <div class="overlay white-solid"></div>
+    <!-- <div class="overlay white-solid"></div> -->
     <svg id="menu-trigger" class="menu-trigger icn icon-menu visible-xs" viewBox="0 0 32 32">
         <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.min.svg#icon-menu"></use>
     </svg>
     <a href="{{ site.baseurl }}/" id="logo-header" class="logo-header">
         <div class="logo"></div>
     </a>
-    <nav class="st-menu st-effect" id="menu">
+    <nav class="st-menu st-effect" id="menu" style="background: linear-gradient(to right,rgb(0, 16, 17),rgb(0, 41, 39) )">
         <div class="logo-navbar logo visible-xs"></div>
         <ul>
             {% for navigationLink in site.navigationLinks %}
             <li>
-                <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %}{{ navigationLink.permalink | prepend: site.baseurl }}{% else %}  {{ navigationLink.link }}{% endif %}" {% if navigationLink.link != null %}target="_blank"{% endif %}>{{ navigationLink.text}}</a>
+                <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %}{{ navigationLink.permalink | prepend: site.baseurl }}{% else %}  {{ navigationLink.link }}{% endif %}" {% if navigationLink.link != null %}target="_blank"{% endif %} style="color: rgb(250, 251, 252);">{{ navigationLink.text}}</a>
             </li>
             {% endfor %}
         </ul>
@@ -24,3 +24,7 @@
         </ul>
     </nav>
 </header>
+
+
+
+
