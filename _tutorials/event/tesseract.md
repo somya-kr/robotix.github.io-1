@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: "Tesseract Tutorial"
 categories:
@@ -174,4 +174,4 @@ int num2 = atoi((const char*) buffer2); // num2 will contain the integer that is
   mfrc522.PICC_HaltA();
   mfrc522.PCD_StopCrypto1();
 }
-```
+``` -->

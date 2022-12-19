@@ -43,7 +43,7 @@ paginate_path: "/blog/:num"
 # Head
 metaKeywords: "robotix, robotics, iit, kgp, team, events, society, technology, tutorial"
 twitterAccount: "@robotixiitkgp"
-google-plus-page: "https://plus.google.com/102868621563384739622"
+# google-plus-page: "https://plus.google.com/102868621563384739622"
 siteVerification: "ZR618hQWwV_OwtWa033492kzvBaQYxBc1ZauYc5oO5A"
 socialImage: "/img/favicons/favicon-196x196.png"
 
@@ -94,7 +94,7 @@ statisticBlockImage: "statistic.jpg"
 statisticBlock:
  # - {count: "2000", specialCharacter: "+", info: "participants"}
  # - {count: "500", specialCharacter: "+", info: "teams"}
- - {count: "3", specialCharacter: "", info: "events"}
+ - {count: "2", specialCharacter: "", info: "events"}
  - {count: "1", specialCharacter: "", info: "fest"}
 statisticQuirk: "Robotix 2023, #GearUp"
 
@@ -115,7 +115,7 @@ FbHashTag: "robotixiitkgp"
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/102868621563384739622/", icon: "google-plus"}
+#  - {link: "https://plus.google.com/102868621563384739622/", icon: "google-plus"}
  - {link: "https://twitter.com/RobotixIITKgp", icon: "twitter"}
  - {link: "https://facebook.com/robotixiitkgp", icon: "facebook"}
  - {link: "https://www.youtube.com/robotixiitkgp", icon: "youtube"}
@@ -125,7 +125,7 @@ footerBlocks:
   title: "Links"
   links:
    # - {link: "http://app.robotix.in", text: "Robotix App"}
-   - {link: "https://drive.google.com/open?id=1jNJHFE1QjGOHFwhhzn6e774odGv-6eFQ", text: "Robotix App"}
+  #  - {link: "https://drive.google.com/open?id=1jNJHFE1QjGOHFwhhzn6e774odGv-6eFQ", text: "Robotix App"}
    - {link: "https://robotix.in/event/", text: "Events"}
    - {link: "https://robotix.in/tutorial/", text: "Tutorials"}
  -

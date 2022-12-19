@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: "Crescendo Tutorial"
 categories:
@@ -105,4 +105,4 @@ Three way switch
 
 ![](/img/tutorial/event/crescendo/mantut4.jpg){:.img-responsive}
 
-The motors are fixed to the chassis and the tyres are fitted to the DC Geared Motors.
+The motors are fixed to the chassis and the tyres are fitted to the DC Geared Motors. -->
