@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: 'Nexus'
 subTitle: 'Computer Vision Event'
@@ -295,4 +295,4 @@ Ph. no: **+91 7728991073**
 
 Email: **[tanyasneh@gmail.com](mailto:tanyasneh@gmail.com)**
 
-Ph. no: **+91 8942053975**
+Ph. no: **+91 8942053975** -->

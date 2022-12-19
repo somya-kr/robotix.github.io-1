@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: 'Crescendo'
 subTitle: 'Manual Robotics Event'
@@ -319,4 +319,4 @@ Ph. no: **+91 8390888597**
 
 Email: **[shreyanshvts@gmail.com](mailto:shreyanshvts@gmail.com)**
 
-Ph. no: **+91 7024156777**
+Ph. no: **+91 7024156777** -->
