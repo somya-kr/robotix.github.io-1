@@ -11,7 +11,8 @@
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
                         <a href="{{ about.link }}">
                             <h5>{{ about.title }}</h5>
-                            <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ about.image }}" height="128" width="128" alt="{{ about.title }}">
+                            <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ about.image }}"
+                                height="128" width="128" alt="{{ about.title }}">
                         </a>
                         <p>{{ about.text }}</p>
                     </div>
@@ -25,3 +26,36 @@
     </div>
 </section>
 <!-- End About Section -->
+
+<!-- Adding Video Carousal for landing page-->
+
+<div class="owl-carousel video-section" id="video-landing">
+    <div class="item">
+        <div>
+            <video class="js-player" crossorigin playsinline
+                poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" width="50%" height="20%">
+                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4" type="video/mp4"
+                    size="720">
+            </video>
+        </div>
+    </div>
+    <div class="item">
+        <div>
+            <video class="js-player" crossorigin playsinline
+                poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" width="50%" height="20%">
+                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4" type="video/mp4"
+                    size="720">
+            </video>
+        </div>
+    </div>
+    <div class="item">
+        <div>
+            <video class="js-player" crossorigin playsinline
+                poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" width="50%" height="20%">
+                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4" type="video/mp4"
+                    size="720">
+            </video>
+        </div>
+    </div>
+</div>
+

@@ -8,7 +8,7 @@
     </a>
     <nav class="st-menu st-effect" id="menu" style="background: linear-gradient(to right,rgb(0, 16, 17),rgb(0, 41, 39) )">
         <div class="logo-navbar logo visible-xs"></div>
-        <ul>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
             {% for navigationLink in site.navigationLinks %}
             <li>
                 <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %}{{ navigationLink.permalink | prepend: site.baseurl }}{% else %}  {{ navigationLink.link }}{% endif %}" {% if navigationLink.link != null %}target="_blank"{% endif %} style="color: rgb(250, 251, 252);">{{ navigationLink.text}}</a>
