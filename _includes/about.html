@@ -24,38 +24,81 @@
             </div>
         </div>
     </div>
-</section>
-<!-- End About Section -->
 
-<!-- Adding Video Carousal for landing page-->
+    <!-- Adding Video Carousal for landing page-->
 
-<div class="owl-carousel video-section" id="video-landing">
-    <div class="item">
-        <div>
-            <video class="js-player" crossorigin playsinline
-                poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" width="50%" height="20%">
-                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4" type="video/mp4"
-                    size="720">
-            </video>
-        </div>
-    </div>
-    <div class="item">
-        <div>
-            <video class="js-player" crossorigin playsinline
-                poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" width="50%" height="20%">
-                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4" type="video/mp4"
-                    size="720">
-            </video>
-        </div>
-    </div>
-    <div class="item">
-        <div>
-            <video class="js-player" crossorigin playsinline
-                poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" width="50%" height="20%">
-                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4" type="video/mp4"
-                    size="720">
-            </video>
-        </div>
-    </div>
-</div>
+    <div class="page-wrap">
 
+        <div id="home-slider">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper-slide-one">
+                <div class="swiper-image" data-swiper-parallax-y="-20%">
+                  <div class="swiper-image-inner swiper-image-left swiper-image-one">
+                    <h1><br><span class="emphasis">Gesture Controlled</span>. <br><span>Gripper</span></h1>
+                    
+                  </div>
+                </div>
+                <div class="swiper-image" data-swiper-parallax-y="35%">
+                  <div class="swiper-image-inner swiper-image-right swiper-image-two">
+                    <h1><span class="emphasis">Spider </span>. <br><span>Bot</span></h1>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-two">
+                <div class="swiper-image" data-swiper-parallax-y="-20%">
+                  <div class="swiper-image-inner swiper-image-left swiper-image-three">
+                    <h1>The <span class="emphasis">Drop</span>. <br><span>Of Eternal life.</span></h1>
+                    <p>Chapter II, page VII</p>
+                  </div>
+                </div>
+                <div class="swiper-image" data-swiper-parallax-y="35%">
+                  <div class="swiper-image-inner swiper-image-right swiper-image-four">
+                    <p class="paragraph">
+                      A thirsty Crow found a Pitcher with some water in it, but so little was there that, try as she might, she could not reach it with her beak, and it seemed as though she would die of thirst within sight of the remedy.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-three">
+                <div class="swiper-image" data-swiper-parallax-y="-20%">
+                  <div class="swiper-image-inner swiper-image-left swiper-image-five">
+                    <h1>A <span class="emphasis">Sense</span>. <br><span>Of Things to Come.</span></h1>
+                    <p>Chapter III, page XI</p>
+                  </div>
+                </div>
+                <div class="swiper-image" data-swiper-parallax-y="35%">
+                  <div class="swiper-image-inner swiper-image-right swiper-image-six">
+                    <p class="paragraph">
+                      Every man carries Two Bags about with him, one in front and one behind, and both are packed full of faults. The Bag in front contains his neighbours’ faults, the one behind his own. Hence it is that men do not see their own faults, but never fail to see
+                      those of others.
+                    </p>
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      
+      </div>
+      <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+    
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js'></script>
+          <script id="rendered-js" >
+    var mySwiper = new Swiper(".swiper-container", {
+      direction: "vertical",
+      loop: true,
+      pagination: ".swiper-pagination",
+      grabCursor: true,
+      speed: 1000,
+      paginationClickable: true,
+      parallax: true,
+      autoplay: false,
+      effect: "slide",
+      mousewheelControl: 1 });
+    //# sourceURL=pen.js
+        </script>
+    

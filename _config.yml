@@ -51,11 +51,11 @@ socialImage: "/img/favicons/favicon-196x196.png"
 navigationLinks:
  - {link: "https://makerspace.robotix.in/", text: "Makerspace"}
  - {permalink: "/FAQs/", text: "FAQs"}
- #- {permalink: "/workshops/", text: "Workshops"}
- #- {permalink: "/event/", text: "Events"}
+ - {permalink: "/workshops/", text: "Workshops"}
+ - {permalink: "/event/", text: "Events"}
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/tutorial", text: "Tutorials"}
- #- {permalink: "/team/", text: "Team"}
+ - {permalink: "/team/", text: "Team"}
  - {permalink: "/about-us/", text: "About Us"}
 bottomNavigationLinks:
  - {link: "https://robotix.typeform.com/to/USirXsoq", text: "Contact Us"}
