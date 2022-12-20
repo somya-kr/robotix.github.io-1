@@ -1,15 +1,16 @@
-$footer-background-color: #fcfcfc;
-$footer-links-color: #8b8b8b;
+$footer-links-color: #d7d8d8;
 
 .footer {
-    padding: 40px 52px 13px;
-    border-top: 1px solid #e7e7e7;
-    background-color: $footer-background-color;
+    background: linear-gradient(to right,rgb(4, 33, 34),rgb(4, 12, 10) );
+    padding: 25px 25px 5px;
+    
+    
     @media (max-width: 767px) {
         padding: 26px 20px 13px;
     }
     h5 {
-        font-size: 18px;
+        font-size: 25px;
+        color: #8d8a8a;
     }
     ul {
         margin-top: 13px;
@@ -21,6 +22,7 @@ $footer-links-color: #8b8b8b;
     }
     a {
         color: $footer-links-color;
+        
         &:hover {
             text-decoration: underline;
         }
@@ -39,4 +41,7 @@ $footer-links-color: #8b8b8b;
     height: 60px;
     margin: -13px -13px 0;
     transform: scale(.65);
+}
+#social{
+    padding: 5px;
 }
