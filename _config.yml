@@ -51,11 +51,10 @@ socialImage: "/img/favicons/favicon-196x196.png"
 navigationLinks:
  - {link: "https://makerspace.robotix.in/", text: "Makerspace"}
  - {permalink: "/FAQs/", text: "FAQs"}
+ - {permalink: "/workshops/", text: "Workshops"}
  - {permalink: "/event/", text: "Events"}
- #- {permalink: "/workshops/", text: "Workshops"}
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/tutorial", text: "Tutorials"}
- #- {permalink: "/team/", text: "Team"}
  - {permalink: "/about-us/", text: "About Us"}
 bottomNavigationLinks:
  - {link: "https://robotix.typeform.com/to/USirXsoq", text: "Contact Us"}
@@ -92,8 +91,8 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- # - {count: "2000", specialCharacter: "+", info: "participants"}
- # - {count: "500", specialCharacter: "+", info: "teams"}
+ - {count: "2000", specialCharacter: "+", info: "participants"}
+ - {count: "500", specialCharacter: "+", info: "teams"}
  - {count: "2", specialCharacter: "", info: "events"}
  - {count: "1", specialCharacter: "", info: "fest"}
 statisticQuirk: "Robotix 2023, #GearUp"
@@ -128,10 +127,14 @@ footerBlocks:
   #  - {link: "https://drive.google.com/open?id=1jNJHFE1QjGOHFwhhzn6e774odGv-6eFQ", text: "Robotix App"}
    - {link: "https://robotix.in/event/", text: "Events"}
    - {link: "https://robotix.in/tutorial/", text: "Tutorials"}
+   - {link: "https://robotix.in/blog/", text: "Blog"}
+   - {link: "https://robotix.in/about-us", text: "About"}
  -
   title: "Contacts"
   links:
    - {link: "https://robotix.typeform.com/to/USirXsoq", text: "Contact Us"}
+
+
  -
   title: "Archives"
   links:

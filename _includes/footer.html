@@ -8,6 +8,7 @@
         {% assign colWidth = 12 | divided_by: forloop.length %}
         <div class="col-md-{{ colWidth }} col-xs-6">
             <h5>{{ block.title }}</h5>
+            
             <ul>
                 {% for linkElement in block.links %}
                 <li><a href="{% if linkElement.permalink != null %}{{ linkElement.permalink | prepend: site.baseurl }}{% else %}{{ linkElement.link }}{% endif %}" {% if linkElement.link != null %}target="_blank"{% endif %}>{{ linkElement.text }}</a></li>
@@ -19,22 +20,17 @@
     <div class="row">
         <div class="col-md-6 col-xs-12">
             <ul class="social-links">
-                {% for social in site.socialLinks %}
-                <li>
-                    <a href="{% if social.permalink != null %}{{ social.permalink | prepend: site.baseurl }}{% else %}{{ social.link }}{% endif %}" target="_blank">
-                        <svg class="icn icon-{{ social.icon }}" viewBox="0 0 30 32">
-                            <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.min.svg#icon-{{ social.icon }}"></use>
-                        </svg>
-                    </a>
-                </li>
-                {% endfor %}
+                <a href="https://facebook.com/robotixiitkgp" id="social"><i class="fa-brands fa-facebook fa-3x"></i></a>
+                <a href="https://twitter.com/RobotixIITKgp" id="social"><i class="fa-brands fa-twitter fa-3x"></i></a>
+                <a href="https://www.youtube.com/robotixiitkgp" id="social"><i class="fa-brands fa-youtube fa-3x"></i></a>
+                <a href="https://www.instagram.com/robotix_iitkgp/" id="social"> <i class="fa-brands fa-instagram fa-3x"></i></a>
             </ul>
         </div>
     </div>
     <div class="row">
         <!-- Please don't delete this line-->
         <div class="col-md-6">
-            <p class="copyright">
+            <p class="copyright" style="font-size: 1.2rem;">
                 &copy; 2022 Technology Robotix Society, IIT Kharagpur
             </p>
         </div>
