@@ -5,11 +5,11 @@ $nav-scroll-color-hover: rgba(0, 0, 0, .8);
 
 .top-header {
     position: fixed;
-   z-index: 500;
+    z-index: 500;
     width: 100%;
-   padding: 0 0px;
+    padding: 0 20px;
     @media (min-width: 768px) and (max-width: 991px) {
-       // padding: 13px 0 0 34px;
+        padding: 13px 0 0 34px;
     }
     &.after-scroll {
         padding-top: 0;
@@ -25,7 +25,7 @@ $nav-scroll-color-hover: rgba(0, 0, 0, .8);
 }
 .logo-header {
     display: block;
-    transform: translateY(3px);
+    transform: translateY(20px);
     transition: $base-transition;
     @media (max-width: 767px) {
         transform: translateX(-45px);
@@ -78,7 +78,7 @@ nav {
         padding: 0;
         list-style: none;
         text-align: left;
-        //transform: translateY(40px);
+        transform: translateY(40px);
         transition: $base-transition;
         @media (max-width: 767px) {
             line-height: 20px;
@@ -87,7 +87,7 @@ nav {
             transform: translateY(0);  
         }
         .top-header.after-scroll & {
-            //transform: translateY(20px);  
+            transform: translateY(20px);  
             @media (max-width: 767px) {
                 transform: translateY(0);  
             }
@@ -112,7 +112,7 @@ nav {
                 padding: 13px 15px 13px 15px;
                 transition: $base-transition;
                 text-transform: none;
-                color: rgb(248, 245, 245);
+                color: rgba(0, 0, 0, .3);
                 outline: 0;
             }
             &.current, &:hover {
