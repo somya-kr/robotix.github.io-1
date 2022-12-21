@@ -1,14 +1,14 @@
 <!-- Begin Team List-->
 <section id="team" class="team">
     <div class="content-wrapper">
-        <details>
-            <summary style="list-style-type: none;">
+        <details class="styled">
+            <summary>
                 <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">
                     Alumni</h4>
             </summary>
             {% for hierarchy in site.data.alumni %}
-            <details>
-            <summary style="list-style-type: none;">
+            <details class="styled-inside">
+            <summary>
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">
                 Batch of {{ hierarchy.title }}</h4>
             </summary>
@@ -44,9 +44,33 @@
                 </div>
             </span>
         </details>
+        <hr>
             {% endfor %}
         </details>
     </div>
 </section>
+<style>
+
+details.styled {
+	padding: 1em;
+	border: 1px solid #121212;
+	border-radius:4px;
+	margin-left: 10em;
+    margin-right: 10em;
+	transition: all 0.5s ease-in-out;
+	overflow: hidden;
+}
+
+details.styled-inside {
+	transition: all 0.5s ease-in-out;
+	overflow: hidden;
+}
+
+details.styled summary {
+	outline: none;
+	cursor: pointer;
+    list-style-type: none;
+}
+</style>
 
 <!-- End Team List -->
