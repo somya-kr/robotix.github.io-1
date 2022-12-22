@@ -27,7 +27,17 @@
     @media (max-width: 767px) {
         display: inline-block;
     }
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
 }
+
+#event-dates {
+    width: 25%;
+    @media screen and (max-width: 767px) {
+        width: 100%;
+    }
+}
+
 .explore {
     margin-left: -16px;
     position: absolute;
