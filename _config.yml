@@ -61,7 +61,7 @@ bottomNavigationLinks:
 
 
 # Hero Block
-heroImage: "hero.jpg"
+heroImage: "hero.png"
 heroTitle: "<typeout>"
 eventDate: "20th Jan - 22nd Jan, 2023"
 typeoutTextValues: '"Technology Robotix Society", "Where Machines Dare!", "#GearUp", "Robotix 2023"'
