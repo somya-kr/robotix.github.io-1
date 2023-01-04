@@ -7,13 +7,7 @@ categories:
 
 #### Crossfire
 
-To build a robot having dimensions within the specified range and capable of **playing with the ball, avoiding opponent bots and obstacles**.
-
-<!-- #### USP
-
-*   Line Following Mechanism
-*   Colour Recognition
-*   Memory and backtracking -->
+To build a wired/wirelessly controlled soccer robot capable of dribbling and shooting the ball.
 
 #### Component List 
 

@@ -11,8 +11,10 @@ To build an autonomous robot capable of traversing through the arena through a s
 
 #### USP
 
-*   Line Following Mechanism
-*   Colour Recognition
+*   Autonomous traversal (line following)
+
+*   Colour detection
+
 *   Memory and backtracking
 
 #### Component List 
