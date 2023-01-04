@@ -3,6 +3,7 @@ layout: post
 title: "Crossfire Tutorial"
 categories:
  - event
+image: img/sections-background/crossfire_black_layer.png
 ---
 
 #### Crossfire

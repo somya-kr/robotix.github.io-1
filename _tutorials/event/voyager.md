@@ -3,6 +3,7 @@ layout: post
 title: "Voyager Tutorial"
 categories:
  - event
+image: img/sections-background/voyager_black_layer.png
 ---
 
 #### Voyager
