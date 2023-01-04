@@ -13,10 +13,10 @@ actions:
 #     icon: 'youtube'
 #     caption: 'Tutorial Video'
 #     link: https://www.youtube.com/watch?v=-z_I5_VtNgQ
-  # -
-  #   text: 'E'
-  #   caption: 'Event PDF'
-  #   link: '/assets/event/Tesseract.pdf'
+  -
+    text: 'E'
+    caption: 'Event PDF'
+    link: '/assets/event/Voyager.pdf'
 #   -
 #     text: 'D'
 #     caption: 'Do-It-Yourself'
